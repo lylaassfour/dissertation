@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Silent Check SSO</title>
+</head>
+<body>
+  <script>
+    window.onload = function() {
+      if (window.opener) {
+        window.opener.postMessage('sso-check-complete', '*');
+        window.close();
+      }
+    };
+  </script>
+</body>
+</html>

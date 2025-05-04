@@ -1,0 +1,4 @@
+{
+    "mongosh": "homebrew/core",
+    "mongocli": "homebrew/core"
+}
